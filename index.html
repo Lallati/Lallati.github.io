@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Lalla DIAKITE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f5f6fa;
+      color: #2c3e50;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #34495e;
+    }
+    nav a {
+      color: #fff;
+      padding: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #1abc9c;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #1abc9c;
+      margin-bottom: 20px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .contact-info a {
+      color: #1abc9c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio - Lalla DIAKITE</h1>
+    <p>Étudiante en Master 2 Systèmes, Réseaux et Cloud | Passionnée de cybersécurité & AWS</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Déterminée, sérieuse et autonome, je développe une expertise dans les systèmes, réseaux et technologies cloud. Mon objectif est de contribuer efficacement à la performance d’une entreprise grâce à mes compétences en cybersécurité, en administration réseaux et en solutions cloud (AWS, Azure).</p>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li><b>Réseaux :</b> VPN, VLAN, Routage (BGP, EIGRP, RIP, OSPF), MPLS, IPv4</li>
+      <li><b>Systèmes :</b> Ubuntu, Debian, Windows</li>
+      <li><b>Cloud :</b> AWS (EC2, ELB, Auto Scaling, CodePipeline, CodeBuild), Azure</li>
+      <li><b>Bases de données :</b> MySQL, Oracle</li>
+      <li><b>Langues :</b> Français (courant), Anglais (intermédiaire)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>🔒 VPN IPSec</h3>
+        <p>Mise en place d’un VPN site-à-site entre deux réseaux (192.168.1.0 et 192.168.3.0) avec NAT et configuration sécurisée.</p>
+      </div>
+      <div class="card">
+        <h3>🌐 Routage avancé OSPF & Inter-VLAN</h3>
+        <p>Configuration d’un routage dynamique OSPF et d’un routage inter-VLAN avancé avec segmentation sécurisée du trafic.</p>
+      </div>
+      <div class="card">
+        <h3>☁️ CI/CD sur AWS</h3>
+        <p>Déploiement d’une chaîne CI/CD avec AWS CodePipeline, CodeBuild et GitHub pour automatiser le déploiement d’une application web.</p>
+      </div>
+      <div class="card">
+        <h3>⚡ Auto Scaling & Load Balancer</h3>
+        <p>Déploiement d’une application web sur EC2 avec Elastic Load Balancer et Auto Scaling pour assurer la haute disponibilité.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="contact-info">
+      📍 Dakar, Sénégal<br>
+      📧 <a href="mailto:diakitelalla42@gmail.com">diakitelalla42@gmail.com</a><br>
+      📱 78 750 82 31<br>
+      🔗 <a href="https://linkedin.com/in/tonprofil">Mon LinkedIn</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Portfolio de Lalla DIAKITE</p>
+  </footer>
+</body>
+</html>
